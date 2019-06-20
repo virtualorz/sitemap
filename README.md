@@ -4,7 +4,7 @@ Use Laravel web route to generate sitemap structure, use for parent/child relati
 # Install
     composer require virtualorz/sitemap
     
-#Config
+# Config
 edit config/app.php
     
     'providers' => [
@@ -17,21 +17,21 @@ edit config/app.php
         'Sitemap' => Virtualorz\Sitemap\Facades\Sitemap::class,
     ]
     
-#Method
+# Method
 
-######getTreeView
+###### getTreeView
 `return tree struce Array`
 
-######getNaviPath
+###### getNaviPath
 `return navipath html`
 
-######getParents
+###### getParents
 `return parent node route item`
 
-######getMenu
+###### getMenu
 `return left side menu structure Array`
 
-#Route Example
+# Route Example
     Route::get('/customer',
             [
                 'as' => 'backend.customer.index' ,// user for id in sitemap
