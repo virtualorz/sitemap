@@ -5,7 +5,7 @@ Use Laravel web route to generate sitemap structure, use for parent/child relati
     composer require virtualorz/sitemap
     
 #Config
-    edit config/app.php
+edit config/app.php
     
     'providers' => [
         ...
